@@ -1,4 +1,10 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Tue Mar  4 17:58:42 2025
 
+@author: sebas
+"""
+#abtraccion y clase abstracta
 from abc import ABC 
 
 class Absnumeros(ABC):
@@ -17,5 +23,4 @@ class racionales(Absnumeros):
         print ("El numero en forma de fraccion es: ", self.n.as_integer_ratio())
         
         
-
     

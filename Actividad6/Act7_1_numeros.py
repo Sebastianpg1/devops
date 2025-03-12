@@ -1,4 +1,9 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Tue Mar  4 17:05:45 2025
 
+@author: sebas
+"""
 class Numeros:
     def __init__(self,n):
         self.n = n
