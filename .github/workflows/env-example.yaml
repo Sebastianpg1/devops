@@ -1,0 +1,19 @@
+name: Greeting on variable day Sebastian
+
+on:
+  workflow_dispanch
+
+env:
+  DEY_ON_WEEK: Monday
+
+jobs:
+  greeting_job:
+    runs-on: ubuntu-latenst
+    env:
+      Greeting: Hello
+    steps:
+      - name: "Say Hello Mona it's Monday"
+        run: echo "$Greenting $First_Name. Today is $DAY_OF_WEEK!"
+        env:
+          First_Name: Sebastian
+          
