@@ -1,7 +1,7 @@
 name: Greeting on variable day Sebastian
 
 on:
-  workflow_dispantch
+  workflow_dispatch
 
 env:
   DEY_ON_WEEK: Monday
